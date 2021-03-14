@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "282339657000",
+    "project_id": "billshub-ng",
+    "storage_bucket": "billshub-ng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282339657000:android:b6d9252bb3ed6eaa02bc1d",
+        "android_client_info": {
+          "package_name": "com.example.projectbid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282339657000-fg3ifg0319cctgvvgchi190ous3csto5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBV8KACxKPNidoJD7CoN202KSGAI17yLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282339657000-fg3ifg0319cctgvvgchi190ous3csto5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

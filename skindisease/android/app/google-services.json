@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628731496973",
+    "project_id": "skindiease",
+    "storage_bucket": "skindiease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628731496973:android:4920d5786afd731c30a344",
+        "android_client_info": {
+          "package_name": "com.example.skindisease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628731496973-i862v8viufqtm05p3lc5fsip09g9ls8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR9klm1zR-UHiuq_1NpKgATHMgsWUHeQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628731496973-i862v8viufqtm05p3lc5fsip09g9ls8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
