@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327126023798",
+    "project_id": "cubit-cd00e",
+    "storage_bucket": "cubit-cd00e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327126023798:android:b6bec0032e3f39e4432957",
+        "android_client_info": {
+          "package_name": "com.example.bloccubit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327126023798-an797tvkipec67lopcvh670sfjkh9jee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoHHSMXsrVjOmKQus7rfls9vT0pIxaLUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327126023798-an797tvkipec67lopcvh670sfjkh9jee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

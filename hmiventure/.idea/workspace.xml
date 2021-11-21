@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d997b8f1-7609-40c4-a029-1912de38b38c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/Chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/DoneIllustration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/Filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/Show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/Successillustration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/backBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/conversationImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/dummyImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/dummyImage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/dummyImage3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/dummyImage4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/dummyImage5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/facebookLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/googleLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/mailillustration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/videoCallScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/whatsAppLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/images/whatsappImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Category.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Saved.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Schedule.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/Search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/account.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/more-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/noice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/search2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/searchicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/starDisable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/starEnable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/assets/vectors/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/model/question_one_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/ui_utils/custom_image_preview.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/ui_utils/media_source_selection_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/acknowledgement_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/app_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/appbar_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/bottom_sheet_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/button_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/carousel_calendar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/common_listtile_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/percent_indicator_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/star_ratting_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/text_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/common_components/textfiled_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/constants/assets_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/constants/color_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/constants/string_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/bottom_navigation_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/conversation_call_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/create_new_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/custom_painter_testing_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/details_screens.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/group_details_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/group_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/intro_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/login_Screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/main_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/matches_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/matches_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/new_request_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/profile_image_picker_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/profile_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/question_one_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/question_three_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/question_two_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/registeration_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/rejected_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/reset_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/schedule_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flutter_app/lib/view/screens/waiting_Widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/Chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/DoneIllustration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/Filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/Show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/Successillustration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/backBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/conversationImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/dummyImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/dummyImage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/dummyImage3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/dummyImage4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/dummyImage5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/facebookLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/googleLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/mailillustration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/videoCallScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/whatsAppLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/images/whatsappImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Category.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Saved.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Schedule.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/Search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/account.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/more-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/noice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/search2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/searchicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/starDisable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/starEnable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/assets/vectors/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/model/question_one_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/ui_utils/custom_image_preview.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/ui_utils/media_source_selection_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/acknowledgement_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/app_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/appbar_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/bottom_sheet_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/button_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/carousel_calendar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/common_listtile_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/percent_indicator_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/star_ratting_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/text_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/common_components/textfiled_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/constants/assets_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/constants/color_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/constants/string_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/bottom_navigation_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/conversation_call_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/create_new_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/custom_painter_testing_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/details_screens.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/group_details_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/group_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/intro_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/login_Screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/main_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/matches_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/matches_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/new_request_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/profile_image_picker_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/profile_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/question_one_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/question_three_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/question_two_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/registeration_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/rejected_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/reset_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/schedule_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../richardproject/lib/view/screens/waiting_Widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/android/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/lib/Screens/auth_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/lib/Screens/chat_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/lib/Widgets/auth_form.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/lib/Widgets/chat/messagebubble.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/lib/Widgets/chat/messages.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/lib/Widgets/chat/newmessage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatapp/lib/Widgets/pickers/user_image_picker.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/android/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/android/settings_aar.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/Calling.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/Vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/airplay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/database.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/electricity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/logos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/profil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/transactionlogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/trello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/images/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/authentication.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/buyairtime.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/create_account.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/customColor.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/form.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/homescreen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/model_of_buyairtime.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/profile.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/recent transaction.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/recent_transaction.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectbid/lib/svgiimages.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/fonts/Signatra.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/fonts/bolt-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/fonts/bolt-semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/car_android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/car_ios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/desticon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/desticon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/pickicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/posimarker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/redmarker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/taxi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/images/user_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../riderapp/sounds/alert.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skindisease/lib/detectdiseasesbyname.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../skindisease/lib/detectdiseasesbyname.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled3/images/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled3/lib.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1xBQt18bcFsYwOo197Yt1UI1420" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hmiventure" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d997b8f1-7609-40c4-a029-1912de38b38c" name="Default Changelist" comment="" />
+      <created>1629826212444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629826212444</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1629904162825">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1629904162825" />
+    <state width="1236" height="259" key="GridCell.Tab.0.bottom" timestamp="1629837892866">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629837892866" />
+    <state width="1236" height="259" key="GridCell.Tab.0.center" timestamp="1629837892866">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="259" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629837892866" />
+    <state width="1236" height="259" key="GridCell.Tab.0.left" timestamp="1629837892865">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="259" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629837892865" />
+    <state width="1236" height="259" key="GridCell.Tab.0.right" timestamp="1629837892866">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="259" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629837892866" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1629832841632">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1629832841632" />
+  </component>
+</project>
