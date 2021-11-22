@@ -15,9 +15,10 @@ class SqlitedatabseCubit extends Cubit<SqlitedatabseState> {
 
   Future init() async {
     this.handler.initializeDB().whenComplete(() async {
-      await addUsers();
+      // await addUsers();
       final users = await handler.retrieveUsers();
       emit(SqlitedatabseLoaded(users));
+      // emit(Empty());
     });
   }
 
@@ -35,11 +36,38 @@ class SqlitedatabseCubit extends Cubit<SqlitedatabseState> {
     return queryResult.map((e) => User.fromMap(e)).toList();
   }
 
-  Future<void> addmoreData() async {
-    await addUsers();
-    final users = await handler.retrieveUsers();
+  doLike(int index, int id) {
+    id = index;
+    emit(Like(true));
+  }
 
-    emit(SqlitedatabseLoaded(users));
+  disLike(int index, int id) {
+    id = index;
+    emit(DisLike(false));
+  }
+
+  Future<void> addmoreData({String? name, String? description}) async {
+    // User firstUser = User(name: "peter", age: 24, country: "Lebanon");
+    // User secondUser = User(name: "john", age: 31, country: "United Kingdom");
+    List<User> listOfUsers = [];
+    DateTime now = DateTime.now();
+    DateTime currentTime = new DateTime(
+        now.year, now.month, now.day, now.hour, now.minute, now.second);
+    listOfUsers.add(User(
+        name: name!,
+        age: 12,
+        country: 'pakistan',
+        describtion: description!,
+        dateTime: currentTime.toString()));
+    if (listOfUsers.isNotEmpty) {
+      await this.handler.insertUser(listOfUsers);
+
+      final users = await handler.retrieveUsers();
+
+      emit(SqlitedatabseLoaded(users));
+    } else {
+      print('asdfsdf');
+    }
   }
 
   Future<void> deleteUser(int id) async {
