@@ -9,7 +9,7 @@ class DatabaseHandler {
       join(path, 'example.db'),
       onCreate: (database, version) async {
         await database.execute(
-          "CREATE TABLE users(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL,age INTEGER NOT NULL, country TEXT NOT NULL, email TEXT, describtion TEXT NOT NULL,dateTime TEXT)",
+          "CREATE TABLE users(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL,age INTEGER NOT NULL, country TEXT NOT NULL, email TEXT, describtion TEXT NOT NULL,dateTime TEXT,like INTEGER NOT NULL)",
         );
       },
       version: 1,

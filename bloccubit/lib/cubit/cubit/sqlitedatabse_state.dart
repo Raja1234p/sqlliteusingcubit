@@ -26,11 +26,7 @@ class SqlitedatabseLoaded extends SqlitedatabseState {
 
 class Empty extends SqlitedatabseState {}
 
-class Like extends SqlitedatabseState {
-  final bool isCheck;
-
-  Like(this.isCheck);
-}
+class Like extends SqlitedatabseState {}
 
 class DisLike extends SqlitedatabseState {
   final bool isCheck;

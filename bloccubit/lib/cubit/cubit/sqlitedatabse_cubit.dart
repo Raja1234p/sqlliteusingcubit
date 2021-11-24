@@ -10,7 +10,7 @@ class SqlitedatabseCubit extends Cubit<SqlitedatabseState> {
   SqlitedatabseCubit() : super(SqlitedatabseInitial()) {
     handler = DatabaseHandler();
   }
-
+  int? id;
   late DatabaseHandler handler;
 
   Future init() async {
@@ -36,9 +36,9 @@ class SqlitedatabseCubit extends Cubit<SqlitedatabseState> {
     return queryResult.map((e) => User.fromMap(e)).toList();
   }
 
-  doLike(int index, int id) {
+  doLike(int index) async {
     id = index;
-    emit(Like(true));
+    emit(Like());
   }
 
   disLike(int index, int id) {
@@ -53,12 +53,15 @@ class SqlitedatabseCubit extends Cubit<SqlitedatabseState> {
     DateTime now = DateTime.now();
     DateTime currentTime = new DateTime(
         now.year, now.month, now.day, now.hour, now.minute, now.second);
-    listOfUsers.add(User(
-        name: name!,
-        age: 12,
-        country: 'pakistan',
-        describtion: description!,
-        dateTime: currentTime.toString()));
+    listOfUsers.add(
+      User(
+          name: name!,
+          age: 12,
+          country: 'pakistan',
+          describtion: description!,
+          dateTime: currentTime.toString(),
+          like: 0),
+    );
     if (listOfUsers.isNotEmpty) {
       await this.handler.insertUser(listOfUsers);
 
@@ -77,5 +80,15 @@ class SqlitedatabseCubit extends Cubit<SqlitedatabseState> {
       where: "id = ?",
       whereArgs: [id],
     );
+  }
+
+  Future<int> update(User user) async {
+    final Database db = await handler.initializeDB();
+    int result = await db
+        .update("users", user.toMap(), where: "id = ?", whereArgs: [user.id]);
+    final users = await handler.retrieveUsers();
+
+    emit(SqlitedatabseLoaded(users));
+    return result;
   }
 }

@@ -8,7 +8,8 @@ class User {
       required this.country,
       this.email,
       this.describtion,
-      this.dateTime});
+      this.dateTime,
+      this.like});
 
   factory User.fromMap(map) {
     return User(
@@ -18,7 +19,8 @@ class User {
         country: map['country'] as String,
         email: map['email'] as String?,
         describtion: map['describtion'] as String?,
-        dateTime: map['dateTime'] as String?);
+        dateTime: map['dateTime'] as String?,
+        like: map['like'] as int?);
   }
 
   factory User.fromJson(String source) => User.fromMap(json.decode(source));
@@ -30,14 +32,17 @@ class User {
   final String? email;
   final String? describtion;
   final String? dateTime;
+  final int? like;
 
-  User copyWith({
-    int? id,
-    String? name,
-    int? age,
-    String? country,
-    String? email,
-  }) {
+  User copyWith(
+      {int? id,
+      String? name,
+      int? age,
+      String? country,
+      String? email,
+      String? describtion,
+      String? dateTime,
+      int? like}) {
     return User(
         id: id ?? this.id,
         name: name ?? this.name,
@@ -45,7 +50,8 @@ class User {
         country: country ?? this.country,
         email: email ?? this.email,
         describtion: describtion ?? this.describtion,
-        dateTime: dateTime ?? this.dateTime);
+        dateTime: dateTime ?? this.dateTime,
+        like: like ?? this.like);
   }
 
   Map<String, dynamic> toMap() {
@@ -56,7 +62,8 @@ class User {
       'country': country,
       'email': email,
       'describtion': describtion,
-      'dateTime': dateTime
+      'dateTime': dateTime,
+      'like': like
     };
   }
 
@@ -64,6 +71,6 @@ class User {
 
   @override
   String toString() {
-    return 'User(id: $id, name: $name, age: $age, country: $country, email: $email,describtion:$describtion,dateTime:$dateTime)';
+    return 'User(id: $id, name: $name, age: $age, country: $country, email: $email,describtion:$describtion,dateTime:$dateTime,like:$like)';
   }
 }

@@ -3,6 +3,7 @@ import 'package:bloccubit/common_component/textfiled_component.dart';
 import 'package:bloccubit/constants/string_constants.dart';
 import 'package:bloccubit/cubit/cubit/sqlitedatabse_cubit.dart';
 import 'package:bloccubit/listener/data_base.dart';
+import 'package:bloccubit/model/user_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -21,6 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
     BlocProvider.of<SqlitedatabseCubit>(context).init();
   }
 
+  int? id;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -112,7 +114,62 @@ class _LoginScreenState extends State<LoginScreen> {
                                             text: 'Like',
                                             iconData:
                                                 Icons.favorite_border_outlined,
+                                            color: state.users[index].like ==
+                                                        null ||
+                                                    state.users[index].like == 0
+                                                ? Colors.grey
+                                                : Colors.red,
                                           ),
+                                          onTap: () {
+                                            DateTime now = DateTime.now();
+                                            DateTime currentTime = new DateTime(
+                                                now.year,
+                                                now.month,
+                                                now.day,
+                                                now.hour,
+                                                now.minute,
+                                                now.second);
+
+                                            if (state.users[index].like == 0) {
+                                              BlocProvider.of<
+                                                          SqlitedatabseCubit>(
+                                                      context)
+                                                  .update(User(
+                                                      id: state.users[index].id,
+                                                      name: state
+                                                          .users[index].name,
+                                                      age: 12,
+                                                      country: 'Pakistan',
+                                                      describtion: state
+                                                          .users[index]
+                                                          .describtion,
+                                                      dateTime: currentTime
+                                                          .toString(),
+                                                      like: 1));
+                                              print(
+                                                  '  defaule ${state.users[index].like}');
+                                            }
+                                            if (state.users[index].like == 1) {
+                                              BlocProvider.of<
+                                                          SqlitedatabseCubit>(
+                                                      context)
+                                                  .update(User(
+                                                      id: state.users[index].id,
+                                                      name: state
+                                                          .users[index].name,
+                                                      age: 12,
+                                                      country: 'RAJA',
+                                                      describtion: state
+                                                          .users[index]
+                                                          .describtion,
+                                                      dateTime: currentTime
+                                                          .toString(),
+                                                      like: 0));
+
+                                              print(
+                                                  '  like ${state.users[index].like}');
+                                            }
+                                          },
                                         ),
                                         FacebookWidget(
                                           text: 'Share',
@@ -154,9 +211,9 @@ class _LoginScreenState extends State<LoginScreen> {
             }),
       ),
       bottomNavigationBar: ElevatedButton(
-          onPressed: () async {
+          onPressed: () {
             print(nameText.text);
-            await BlocProvider.of<SqlitedatabseCubit>(context).addmoreData(
+            BlocProvider.of<SqlitedatabseCubit>(context).addmoreData(
                 name: nameText.text, description: descriptionText.text);
             nameText.clear();
             descriptionText.clear();
